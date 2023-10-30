@@ -1,0 +1,25 @@
+{
+  "name": "wdyr-flipper-reporter",
+  "version": "0.0.2",
+  "description": "It's a Flipper plugin to report why-did-you-render results to Flipper Desktop app.",
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "ios",
+    "android"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "performance",
+    "flipper"
+  ],
+  "author": "AllenHsu",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native-flipper": "*",
+    "@welldone-software/why-did-you-render": "*"
+  }
+}

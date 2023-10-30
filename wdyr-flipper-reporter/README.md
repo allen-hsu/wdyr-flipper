@@ -1,14 +1,6 @@
-# wdyr-flipper
+# wdyr-flipper-reporter
 
-There are two packages in this repo:
-
-- [wdyr-flipper](#wdry-flipper-reporter)
-
-## wdry-flipper-reporter
-
-It's a Flipper plugin to report why-did-you-render results to Flipper Desktop app.
-
-### Installation
+## Installation
 
 you need to install [wdyr-flipper](https://github.com/welldone-software/why-did-you-render) first
 
@@ -30,7 +22,7 @@ or
 pnpm add --save-dev wdyr-flipper-reporter
 ```
 
-### Usage
+## Usage
 
 in your `wdyr.js` config file
 
@@ -52,21 +44,3 @@ if (__DEV__) {
   });
 }
 ```
-
-## flipper-plugin-why-did-you-render
-
-A Flipper desktop extension to get why-did-you-render results from your React Native app.
-
-### Installation
-
-you need to install wdry-flipper-reporter in your React Native app and setup first
-
-and then to pack this plugin file
-
-```
-yarn pack
-```
-
-will create a `flipper-plugin-why-did-you-render-0.0.1.tgz` file in the root folder.
-
-Then, in your Flipper desktop app, go to `Manage Plugins` and click on `Install Plugins` and select the `flipper-plugin-why-did-you-render-0.0.1.tgz` file.

@@ -2,7 +2,8 @@
 
 There are two packages in this repo:
 
-- [wdyr-flipper](#wdry-flipper-reporter)
+- [wdyr-flipper-reporter](#wdry-flipper-reporter)
+- [flipper-plugin-why-did-you-render](#flipper-plugin-why-did-you-render)
 
 ## wdry-flipper-reporter
 
